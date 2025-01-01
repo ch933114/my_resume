@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>故事書履歷</title>
+  <link rel="stylesheet" href="css/style.css">
+  <!-- box icon -->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="cover cover-left"></div>
+        <div class="cover cover-right turn"></div>
+
+        <div class="book">
+            <!-- profile page-->
+            <div class="book-page page-left">
+                <div class="profile-page">
+                    <img src="img/photo.jpg" alt="個人大頭照">
+                    <h1>劉瑋哲</h1>
+                    <h3>網頁前端</h3>
+                    <div class="social-media">
+                      <a href="#"><i class='bx bxl-facebook-circle' ></i></a>
+                      <a href="#"><i class='bx bxl-twitter' ></i></a>
+                      <a href="#"><i class='bx bxl-linkedin-square'></i></a>
+                      <a href="#"><i class='bx bxl-instagram' ></i></a>
+                    </div>
+                    <p>
+					  ✓ 6year GIS軟體操作經驗 <br/>
+                      ✓ 4year 3DGIS課題研究 <br/>
+					  ✓ 2year 專案管理 | 系統分析經驗 
+                    </p>
+
+                    <div class="btn-box">
+                      <a href="#" class="btn">下載履歷</a>
+                      <a href="#" class="btn contact-me">聯繫我</a>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- page 1 & 2 -->
+            <div class="book-page page-right turn" id="turn-1">
+                <!-- page 1 (experience) -->
+                <div class="page-front">
+                    <h1 class="title">工作經驗</h1>
+                    <div class="workeduc-box">
+                      <div class="workeduc-content">
+                          <span class="year"><i class='bx bx-calendar' ></i>2020-2021</span>
+                          <h3>成功大學 專案工作人員</h3>
+                          <p>✓ 高精地圖資料標準案</p>
+                      </div>
+                      <div class="workeduc-content">
+                          <span class="year"><i class='bx bx-calendar' ></i>2021-2023</span>
+                          <h3>崧旭資訊 GIS分析師</h3>
+                          <p>✓ 重點設施與經營管理系統建置案</p>
+                      </div>
+                      <div class="workeduc-content">
+                          <span class="year"><i class='bx bx-calendar' ></i>2024-2025</span>
+                          <h3>成功大學 專案工作人員</h3>
+                          <p>✓ 前瞻科學於臺灣資源復育及空間先導規劃-子計畫三</p>
+                      </div>
+                    </div>
+                    <span class="number-page">1</span>
+
+                    <!-- next button -->
+                    <span class="nextprev-btn" data-page="turn-1">
+                      <i class='bx bx-chevron-right' ></i>
+                    </span>
+                </div>
+
+                <!-- page 2 (education) -->
+                 <div class="page-back">
+                    <h1 class="title">教育程度</h1>
+                    <div class="workeduc-box">
+                      <div class="workeduc-content">
+                          <span class="year"><i class='bx bx-calendar' ></i>2015-2018</span>
+                          <h3>國立成功大學 測量及空間資訊學系</h3>
+                          <p>✓ 智慧建物管理系統(以測量館為例)</p>
+                      </div>
+                      <div class="workeduc-content">
+                          <span class="year"><i class='bx bx-calendar' ></i>2018-2020</span>
+                          <h3>國立成功大學 測量及空間資訊學系研究所</h3>
+                          <p>✓ 基於空間單元之三維建物資料模式化策略</p>
+                      </div>
+                    </div>
+
+                    <span class="number-page">2</span>
+
+                    <!-- prev button -->
+                     <span class="nextprev-btn back" data-page="turn-1">
+                        <i class='bx bx-chevron-left' ></i>
+                     </span>
+
+                 </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
